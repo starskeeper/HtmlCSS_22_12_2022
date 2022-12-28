@@ -1,0 +1,48 @@
+h1{
+    color: #4545a7;
+}
+h2{
+    color: pink;
+}
+p{
+    color: grey;
+}
+.green-text{
+    color: green;
+}
+.bold{
+    font-weight: bold;
+}
+.green-text.bold{
+    text-decoration: underline;
+}
+#main{
+    color: lightblue;
+}
+div{
+    color: rgb(200, 2, 2);
+}
+*{
+    text-transform: uppercase;
+}
+h3,h4{
+    color: rgb(85, 41, 41);
+}
+span+span{
+color: black;
+}
+span+span+span{
+color: aqua;
+}
+a[href="index.html"]{
+    color: aqua;
+}
+ul li:first-child{
+    font-size: 40px;
+}
+ul li:nth-child(3){
+    font-size: 50px;
+}
+div p:last-child{
+    font-size: 30px;
+}
