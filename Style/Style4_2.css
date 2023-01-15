@@ -1,0 +1,88 @@
+
+.container{
+    width: 1400px;
+    height: 1200px;
+    margin: 0 auto;
+
+    border: 1px solid #2137FC;  
+}
+.container > div{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+.first{
+    background: #000000;
+    left: 100px;
+    top: 100px;
+}
+.second{
+    background: white;
+    top: 700px;
+    left: 700px;
+    border: 1px solid gray; 
+    overflow: hidden;
+
+}
+.circle{
+    background: #FFCE22;
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.third{
+    background: #FFCE22;
+    top: 400px;
+    left: 400px;  
+    overflow: hidden;
+   
+}
+.first_inside{
+    margin: 70px auto;
+    text-align: center;
+}
+.flag{
+    margin: auto;
+    background: rgb(239, 204, 11);
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+.yellow{
+    background:  #2137FC;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px 5px 0 0;
+}
+.diya{
+    color: white;
+    font-family: cousine;
+    font-size: 145px;
+    text-align: center;
+}
+.blue{
+    background: #2137FC;
+    height: 50%;
+}
+.zigzag{
+    position: absolute;
+    width: 80%;
+    padding: 27.5% 10%;
+}
+.zigzag2{
+    position: absolute;
+    width: 80%;
+    padding: 175px 25px;
+}
+.top_blue_middle{
+    width: 400px;
+    height: 400px;
+    margin: -177px 0;
+}
+.Blue_zig{
+    width: 400px;
+    height: 200px;
+    margin: -177px 0;
+}
