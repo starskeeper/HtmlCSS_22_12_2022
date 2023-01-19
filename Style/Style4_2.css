@@ -20,7 +20,8 @@
     background: white;
     top: 700px;
     left: 700px;
-    border: 1px solid gray; 
+    border: solid #2137FC; 
+    border-width: 2px 0px;
     overflow: hidden;
 
 }
