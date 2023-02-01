@@ -2,7 +2,7 @@
     position: relative;
     width: 1920px;
     height: 5448px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     background: #000000;
 }
 .first_slide{
