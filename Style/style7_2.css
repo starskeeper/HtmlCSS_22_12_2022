@@ -91,15 +91,15 @@
     float: right;
     background-color: #668E68;
     background-image: url(../img/Les7Burger.png);
-    /* display: none; */
+    display: none;
     background-size: cover;
     border: none;
 }
-.burgerMenu:active {
+/* .burgerMenu:active {
 
     background-image: url(../img/Les7X.png);
-    /* display: none; */
-}
+    /* display: none;
+} */
 .burgerMenu.onclick {
     display: none;
     
@@ -292,10 +292,11 @@ color: #000000;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    align-self: center;
     gap: 10px;
     position: absolute;
     width: 99.8vw;
-    left: 0px;
+    /* left: 0px; */
     top: 224px;
     background: #FFFFFF;
     border: 1px solid #668E68;
@@ -381,6 +382,9 @@ padding-bottom: 20px;
     .HeadMenu{
         display: none;
     } 
+    .burgerMenu{
+        display: block;
+    }
     .bubbles{
         flex-direction: column;
         align-items: center;
@@ -425,5 +429,10 @@ padding-bottom: 20px;
     }
     .right {
         margin-bottom: 20px;
+    }
+}
+@media(min-width:1109px){
+    .frame{
+        width: 1109px;
     }
 }
