@@ -125,6 +125,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .chomu_txt{
     font-family: 'Montserrat';
@@ -134,10 +135,12 @@
     line-height: 74px;
     text-transform: uppercase;
     color: #151616;
+    padding-top: 60px;
 }
 .decoLine{ 
     width: 862px;
     height: 23px;
+    padding-top: 36px;
 }
 .pics{
     display: flex;
@@ -145,6 +148,7 @@
     flex-direction: row;
     width: 1039px;
     height: 222px;
+    padding-top: 42px;
 }
 .oven > img{
     width: 106px;
